@@ -26,6 +26,18 @@ monitors:
     url: 'https://dash.cloudflare.com'
     method: GET
     expectStatus: 200  
+  
+ - id: api-archeryplus-cn
+    name: api.archeryplus.cn
+    url: 'https://api.archeryplus.cn:8103'
+    method: GET
+    expectStatus: 200 
+
+ - id: www-hh-xell-com
+    name: www.hh-xell.com
+    url: 'https://www.hh-xell.com'
+    method: GET
+    expectStatus: 200 
     
   # - id: workers-cloudflare-com # unique identifier
   #   name: workers.cloudflare.com
