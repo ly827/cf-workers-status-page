@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: youcaitian-com
     name: My Blog
-    url: 'http://youcaitian.com/'
+    url: 'http://youcaitian.com'
     method: GET
     expectStatus: 200
 
@@ -36,6 +36,12 @@ monitors:
  - id: www-hh-xell-com
     name: www.hh-xell.com
     url: 'https://www.hh-xell.com'
+    method: GET
+    expectStatus: 200 
+
+ - id: www-etbox-cn
+    name: www.etbox.cn
+    url: 'http://etbox.cn'
     method: GET
     expectStatus: 200 
     
